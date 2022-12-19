@@ -1,4 +1,4 @@
-import React from 'react'
+import "./share.scss"
 
 function Share() {
   return (
