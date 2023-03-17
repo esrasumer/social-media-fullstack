@@ -10,9 +10,10 @@ import { useState } from "react";
 
 const Post = ({ post }) => {
   const [commentOpen, setCommentOpen] = useState(false);
+  const [isActive, setIsActive] = useState(false);
+  const [count, setCount] = useState(12)
 
   //TEMPORARY
-  const liked = false;
 
   return (
     <div className="post">
@@ -38,8 +39,18 @@ const Post = ({ post }) => {
         </div>
         <div className="info">
           <div className="item">
-            {liked ? <FavoriteOutlinedIcon /> : <FavoriteBorderOutlinedIcon />}
-            12 Likes
+            {isActive
+              ?
+              <FavoriteOutlinedIcon onClick={() => {
+                setIsActive(!isActive) || setCount(prevState =>
+                  prevState - 1)
+              }} /> :
+              <FavoriteBorderOutlinedIcon onClick={() => {
+                setIsActive(!isActive) || setCount(prevState =>
+                  prevState + 1)
+              }}
+              />}{count} Likes
+
           </div>
           <div className="item" onClick={() => setCommentOpen(!commentOpen)}>
             <TextsmsOutlinedIcon />
