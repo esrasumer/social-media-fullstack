@@ -20,7 +20,7 @@ const Profile = () => {
           className="cover"
         />
         <img
-          src="https://images.pexels.com/photos/14028501/pexels-photo-14028501.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"
+          src="https://ca.slack-edge.com/T034UH8S1DG-U034RL9EE21-bf7c73c224b2-512"
           alt=""
           className="profilePic"
         />
@@ -31,21 +31,21 @@ const Profile = () => {
             <a href="http://facebook.com">
               <FacebookTwoToneIcon fontSize="large" />
             </a>
-            <a href="http://facebook.com">
+            <a href="https://www.instagram.com/">
               <InstagramIcon fontSize="large" />
             </a>
-            <a href="http://facebook.com">
+            <a href="https://twitter.com/">
               <TwitterIcon fontSize="large" />
             </a>
-            <a href="http://facebook.com">
+            <a href="http://linkedin.com">
               <LinkedInIcon fontSize="large" />
             </a>
-            <a href="http://facebook.com">
+            <a href="http://pinterest.com">
               <PinterestIcon fontSize="large" />
             </a>
           </div>
           <div className="center">
-            <span>Jane Doe</span>
+            <span>İsa Sümer</span>
             <div className="info">
               <div className="item">
                 <PlaceIcon />
@@ -53,7 +53,7 @@ const Profile = () => {
               </div>
               <div className="item">
                 <LanguageIcon />
-                <span>lama.dev</span>
+                <span>sümer.dev</span>
               </div>
             </div>
             <button>follow</button>

@@ -6,10 +6,10 @@ const Posts = () => {
   const posts = [
     {
       id: 1,
-      name: "John Doe",
+      name: "İsa Sümer",
       userId: 1,
       profilePic:
-        "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "https://ca.slack-edge.com/T034UH8S1DG-U034RL9EE21-bf7c73c224b2-512",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
       img: "https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600",
     },
